@@ -1,0 +1,46 @@
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:white ;
+    background-image: url("./imagen.png");
+    background-repeat: no-repeat;
+    background-size: auto 140%;
+    background-position: 1px -10px;
+    color: rgb(138, 30, 30);
+}
+.c{
+    text-align: center;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: blue;
+    color: white;
+    border: 3px solid white;
+}
+
+.nav-tabs .nav-link{
+    background-color:blue;
+    color:white;
+    border: 3px solid white;
+    margin-right: -30px;
+    margin-left: 2em;
+    padding-right: 4em;
+   
+}
+
+.nav-tabs .nav-link:hover{
+    font-weight: bold;
+
+}
+
+.tab-content{
+    border: 2px solid rgb(138, 30, 30);
+    padding: 20px;
+}
+footer{
+    background-color: rgb(138, 30, 30);
+    background-repeat: no-repeat;
+    background-size: auto 10%;
+    background-position: -20px 25px;
+    color: white;
+    text-align: center;
+}
